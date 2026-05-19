@@ -1,0 +1,21 @@
+# TODO: Update with actual Oracle DB credentials
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: your_username
+    password: your_password
+    hikari:
+      maximum-pool-size: 10
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+
+mybatis:
+  mapper-locations: classpath:mappers/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8080
