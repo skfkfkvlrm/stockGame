@@ -6,8 +6,8 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.school.stockGame.query.StockListQuery;
-import com.school.stockGame.vo.StockVO;
+import com.skfkfkvlrm.stockgame.query.StockListQuery;
+import com.skfkfkvlrm.stockgame.vo.StockVO;
 
 public class StockListDAOJdbc {
 

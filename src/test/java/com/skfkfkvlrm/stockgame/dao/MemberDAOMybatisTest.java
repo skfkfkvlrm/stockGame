@@ -2,13 +2,11 @@ package com.skfkfkvlrm.stockgame.dao;
 
 import static org.junit.Assert.*;
 
+import com.skfkfkvlrm.stockgame.dao.mybatis.DBCPMybatis;
+import com.skfkfkvlrm.stockgame.dao.mybatis.MemberDAOMybatis;
+import com.skfkfkvlrm.stockgame.vo.StudentVO;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
-
-import com.school.stockGame.dao.MemberDAOInterface;
-import com.school.stockGame.dao.mybatis.DBCPMybatis;
-import com.school.stockGame.dao.mybatis.MemberDAOMybatis;
-import com.school.stockGame.vo.StudentVO;
 
 public class MemberDAOMybatisTest {
 	MemberDAOInterface dao;

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.skfkfkvlrm.stockgame.dao.MyPointHistoryDAOInterface;
-import com.school.stockGame.query.MyPointHistoryQuery;
+import com.skfkfkvlrm.stockgame.query.MyPointHistoryQuery;
 
 public class MyPointHistoryDAOJdbc implements MyPointHistoryDAOInterface{
 

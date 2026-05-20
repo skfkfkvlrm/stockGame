@@ -2,7 +2,7 @@ package com.skfkfkvlrm.stockgame.dao;
 
 import java.util.List;
 
-import com.school.stockGame.vo.StockVO;
+import com.skfkfkvlrm.stockgame.vo.StockVO;
 
 public interface StockListDAOInterface {
 	// 현재 기존 파일들을 최대한 그대로 사용가능하게 작성하는 중입니다

@@ -7,8 +7,8 @@ import java.util.Map;
 import org.apache.ibatis.session.SqlSession;
 
 import com.skfkfkvlrm.stockgame.dao.StockDetailDAOInterface;
-import com.school.stockGame.vo.OrderVO;
-import com.school.stockGame.vo.TransactionVO;
+import com.skfkfkvlrm.stockgame.vo.OrderVO;
+import com.skfkfkvlrm.stockgame.vo.TransactionVO;
 
 public class StockDetailDAOMybatis implements StockDetailDAOInterface {
 

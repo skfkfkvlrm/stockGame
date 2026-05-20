@@ -1,11 +1,10 @@
 package com.skfkfkvlrm.stockgame.servlet;
 
+import com.skfkfkvlrm.stockgame.dao.jdbc.NewsDAOJdbc;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+
 import java.io.IOException;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-
-import com.school.stockGame.dao.jdbc.NewsDAOJdbc;
 
 public class NewsUIAction implements Action {
 

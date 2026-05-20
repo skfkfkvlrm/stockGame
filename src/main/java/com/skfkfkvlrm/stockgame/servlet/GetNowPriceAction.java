@@ -1,14 +1,13 @@
 package com.skfkfkvlrm.stockgame.servlet;
 
+import com.google.gson.Gson;
+import com.skfkfkvlrm.stockgame.dao.jdbc.StockDetailDAOJdbc;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-
-import com.google.gson.Gson;
-import com.school.stockGame.dao.jdbc.StockDetailDAOJdbc;
 
 public class GetNowPriceAction implements Action {
 	@Override

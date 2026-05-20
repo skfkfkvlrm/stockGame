@@ -9,8 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.school.stockGame.query.StockDetailQuery;
-import com.school.stockGame.vo.OrderVO;
+import com.skfkfkvlrm.stockgame.query.StockDetailQuery;
+import com.skfkfkvlrm.stockgame.vo.OrderVO;
 
 /**
  * @author 최동석 

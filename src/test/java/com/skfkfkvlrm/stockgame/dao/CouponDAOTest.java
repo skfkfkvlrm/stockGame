@@ -4,12 +4,11 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
+import com.skfkfkvlrm.stockgame.dao.jdbc.CouponDAOJdbc;
+import com.skfkfkvlrm.stockgame.vo.CouponPurchaseVO;
+import com.skfkfkvlrm.stockgame.vo.CouponVO;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.school.stockGame.dao.jdbc.CouponDAOJdbc;
-import com.school.stockGame.vo.CouponPurchaseVO;
-import com.school.stockGame.vo.CouponVO;
 
 public class CouponDAOTest {
     private CouponDAOJdbc dao;

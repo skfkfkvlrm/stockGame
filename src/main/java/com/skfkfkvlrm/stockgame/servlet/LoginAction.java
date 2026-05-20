@@ -1,13 +1,12 @@
 package com.skfkfkvlrm.stockgame.servlet;
 
+import com.skfkfkvlrm.stockgame.dao.jdbc.MemberDAOJdbc;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 import java.util.Map;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-import com.school.stockGame.dao.jdbc.MemberDAOJdbc;
 
 public class LoginAction implements Action {
 

@@ -2,28 +2,28 @@ package com.skfkfkvlrm.stockgame.dao;
 
 import java.util.List;
 
-import com.school.stockGame.vo.CouponPurchaseVO;
-import com.school.stockGame.vo.CouponVO;
+import com.skfkfkvlrm.stockgame.vo.CouponPurchaseVO;
+import com.skfkfkvlrm.stockgame.vo.CouponVO;
 
 public interface CouponDAOInterface {
 	// 등록된 쿠폰 모두 조회
-	public List<CouponVO> getCouponList();
+	List<CouponVO> getCouponList();
 
 	// 쿠폰 구매
-	public String setBuyCoupon(String studentId, int couponPrice, String couponName, int state, int couponNo);
+	String setBuyCoupon(String studentId, int couponPrice, String couponName, int state, int couponNo);
 
 	// 학생이 구매한 쿠폰 개수 조회
-	public int getMyCouponCount(String studentId);
+	int getMyCouponCount(String studentId);
  
 	// 학생 보유 포인트 조회
-	public int getStudentPoint(String studentId);
+	int getStudentPoint(String studentId);
 
 	// 쿠폰 구매 내역 등록
-	public int setPurchaseRecord(String studentId, int couponNo, String couponName, int couponPrice, int state);
+	int setPurchaseRecord(String studentId, int couponNo, String couponName, int couponPrice, int state);
 
 	// 학생 포인트 차감 및 보유 쿠폰 수량 증가
-	public int setStudentAssets(String studentId, int price);
+	int setStudentAssets(String studentId, int price);
 
 	// 내가 보유한 쿠폰 조회
-	public List<CouponPurchaseVO> getMyCouponList(String studentId);
+	List<CouponPurchaseVO> getMyCouponList(String studentId);
 }

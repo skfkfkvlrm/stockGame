@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.skfkfkvlrm.stockgame.dao.MyAssetDAOInterface;
-import com.school.stockGame.query.MyAssetQuery;
+import com.skfkfkvlrm.stockgame.query.MyAssetQuery;
 
 // 각각의 매서드 무슨 기능을 수행하는 건지, 작성해주면 좋겠다고 생각함.
 public class MyAssetDAOJdbc implements MyAssetDAOInterface {

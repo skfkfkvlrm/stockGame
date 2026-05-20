@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.skfkfkvlrm.stockgame.dao.MemberDAOInterface;
-import com.school.stockGame.query.MemberQuery;
+import com.skfkfkvlrm.stockgame.query.MemberQuery;
 
 //import com.school.stockGame.vo.studentVO
 public class MemberDAOJdbc implements MemberDAOInterface{

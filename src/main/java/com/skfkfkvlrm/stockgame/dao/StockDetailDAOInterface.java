@@ -3,7 +3,7 @@ package com.skfkfkvlrm.stockgame.dao;
 import java.util.List;
 import java.util.Map;
 
-import com.school.stockGame.vo.OrderVO;
+import com.skfkfkvlrm.stockgame.vo.OrderVO;
 
 public interface StockDetailDAOInterface {
 	// 매도 주문요청

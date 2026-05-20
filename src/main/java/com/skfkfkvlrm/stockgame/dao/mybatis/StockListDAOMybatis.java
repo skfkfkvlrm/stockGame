@@ -1,12 +1,11 @@
 package com.skfkfkvlrm.stockgame.dao.mybatis;
 
 import java.util.List;
-import java.util.Map;
 
 import org.apache.ibatis.session.SqlSession;
 
 import com.skfkfkvlrm.stockgame.dao.StockListDAOInterface;
-import com.school.stockGame.vo.StockVO;
+import com.skfkfkvlrm.stockgame.vo.StockVO;
 
 public class StockListDAOMybatis implements StockListDAOInterface {
 

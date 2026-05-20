@@ -11,9 +11,9 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.school.stockGame.dao.StockDetailDAOInterface;
-import com.school.stockGame.dao.mybatis.StockDetailDAOMybatis;
-import com.school.stockGame.vo.OrderVO;
+import com.skfkfkvlrm.stockgame.dao.StockDetailDAOInterface;
+import com.skfkfkvlrm.stockgame.dao.mybatis.StockDetailDAOMybatis;
+import com.skfkfkvlrm.stockgame.vo.OrderVO;
 
 public class StockDetailDAOMybatisTest {
 	StockDetailDAOInterface dao = new StockDetailDAOMybatis();

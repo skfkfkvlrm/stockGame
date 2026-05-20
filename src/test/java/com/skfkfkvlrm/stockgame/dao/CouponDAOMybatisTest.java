@@ -2,15 +2,12 @@ package com.skfkfkvlrm.stockgame.dao;
 
 import static org.junit.Assert.*;
 
+import com.skfkfkvlrm.stockgame.dao.mybatis.CouponDAOMybatis;
+import com.skfkfkvlrm.stockgame.dao.mybatis.DBCPMybatis;
+import com.skfkfkvlrm.stockgame.vo.CouponPurchaseVO;
+import com.skfkfkvlrm.stockgame.vo.CouponVO;
 import org.apache.ibatis.session.SqlSession;
-import org.hamcrest.core.IsNull;
 import org.junit.Test;
-
-import com.school.stockGame.dao.CouponDAOInterface;
-import com.school.stockGame.dao.mybatis.CouponDAOMybatis;
-import com.school.stockGame.dao.mybatis.DBCPMybatis;
-import com.school.stockGame.vo.CouponPurchaseVO;
-import com.school.stockGame.vo.CouponVO;
 
 public class CouponDAOMybatisTest {
 	CouponDAOInterface dao = new CouponDAOMybatis();

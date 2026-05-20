@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.skfkfkvlrm.stockgame.dao.NewsDAOInterface;
-import com.school.stockGame.query.NewsQuery;
+import com.skfkfkvlrm.stockgame.query.NewsQuery;
 
 
 public class NewsDAOJdbc implements NewsDAOInterface{

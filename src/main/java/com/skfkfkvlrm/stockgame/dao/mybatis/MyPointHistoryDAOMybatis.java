@@ -6,7 +6,6 @@ import java.util.Map;
 import org.apache.ibatis.session.SqlSession;
 
 import com.skfkfkvlrm.stockgame.dao.MyPointHistoryDAOInterface;
-import com.school.stockGame.dao.jdbc.DBCP;
 
 public class MyPointHistoryDAOMybatis implements MyPointHistoryDAOInterface{
 	

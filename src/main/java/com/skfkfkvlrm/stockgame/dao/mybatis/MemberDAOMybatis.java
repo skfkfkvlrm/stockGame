@@ -1,13 +1,11 @@
 package com.skfkfkvlrm.stockgame.dao.mybatis;
 
-import static org.junit.Assert.assertTrue;
-
 import java.util.Map;
 
 import org.apache.ibatis.session.SqlSession;
 
 import com.skfkfkvlrm.stockgame.dao.MemberDAOInterface;
-import com.school.stockGame.vo.StudentVO;
+import com.skfkfkvlrm.stockgame.vo.StudentVO;
 
 public class MemberDAOMybatis implements MemberDAOInterface {
 

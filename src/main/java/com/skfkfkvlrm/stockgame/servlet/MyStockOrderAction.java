@@ -1,15 +1,14 @@
 package com.skfkfkvlrm.stockgame.servlet;
 
+import com.google.gson.Gson;
+import com.skfkfkvlrm.stockgame.dao.jdbc.StockDetailDAOJdbc;
+import com.skfkfkvlrm.stockgame.vo.OrderVO;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 import java.util.List;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-import com.google.gson.Gson;
-import com.school.stockGame.dao.jdbc.StockDetailDAOJdbc;
-import com.school.stockGame.vo.OrderVO;
 
 public class MyStockOrderAction implements Action {
 

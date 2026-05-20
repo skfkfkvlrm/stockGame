@@ -1,20 +1,19 @@
 package com.skfkfkvlrm.stockgame.servlet;
 
+import com.google.gson.Gson;
+import com.skfkfkvlrm.stockgame.dao.StockDetailDAOInterface;
+import com.skfkfkvlrm.stockgame.dao.StockListDAOInterface;
+import com.skfkfkvlrm.stockgame.dao.mybatis.StockDetailDAOMybatis;
+import com.skfkfkvlrm.stockgame.dao.mybatis.StockListDAOMybatis;
+import com.skfkfkvlrm.stockgame.vo.StockVO;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-
-import com.google.gson.Gson;
-import com.school.stockGame.dao.StockDetailDAOInterface;
-import com.school.stockGame.dao.StockListDAOInterface;
-import com.school.stockGame.dao.mybatis.StockDetailDAOMybatis;
-import com.school.stockGame.dao.mybatis.StockListDAOMybatis;
-import com.school.stockGame.vo.StockVO;
 
 public class StockPriceAjax implements Action {
 

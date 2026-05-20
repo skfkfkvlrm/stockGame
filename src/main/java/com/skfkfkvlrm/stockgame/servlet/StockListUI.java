@@ -1,20 +1,19 @@
 package com.skfkfkvlrm.stockgame.servlet;
 
+import com.skfkfkvlrm.stockgame.dao.StockDetailDAOInterface;
+import com.skfkfkvlrm.stockgame.dao.StockListDAOInterface;
+import com.skfkfkvlrm.stockgame.dao.mybatis.StockDetailDAOMybatis;
+import com.skfkfkvlrm.stockgame.dao.mybatis.StockListDAOMybatis;
+import com.skfkfkvlrm.stockgame.vo.StockVO;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-import com.school.stockGame.dao.StockDetailDAOInterface;
-import com.school.stockGame.dao.StockListDAOInterface;
-import com.school.stockGame.dao.mybatis.StockDetailDAOMybatis;
-import com.school.stockGame.dao.mybatis.StockListDAOMybatis;
-import com.school.stockGame.vo.StockVO;
 
 public class StockListUI implements Action {
 	// 주식 목록 첫 화면용
@@ -37,7 +36,7 @@ public class StockListUI implements Action {
         List<StockVO> stockNameList = list.getStockNameList();
 
         // 2. JSP에 넘길 주식 목록 데이터 생성
-        List<Map<String, Object>> stockList = new ArrayList<Map<String, Object>>();
+        List<Map<String, Object>> stockList = new ArrayList<>();
 
         for (int i = 0; i < stockNameList.size(); i++) {
 

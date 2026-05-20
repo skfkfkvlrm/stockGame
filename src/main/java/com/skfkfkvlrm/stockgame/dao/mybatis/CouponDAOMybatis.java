@@ -7,9 +7,8 @@ import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 
 import com.skfkfkvlrm.stockgame.dao.CouponDAOInterface;
-import com.school.stockGame.dao.jdbc.DBCP;
-import com.school.stockGame.vo.CouponPurchaseVO;
-import com.school.stockGame.vo.CouponVO;
+import com.skfkfkvlrm.stockgame.vo.CouponPurchaseVO;
+import com.skfkfkvlrm.stockgame.vo.CouponVO;
 
 public class CouponDAOMybatis implements CouponDAOInterface{
 	

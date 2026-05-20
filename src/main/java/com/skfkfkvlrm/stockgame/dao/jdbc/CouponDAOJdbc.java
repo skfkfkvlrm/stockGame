@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.skfkfkvlrm.stockgame.dao.CouponDAOInterface;
-import com.school.stockGame.query.CouponQuery;
-import com.school.stockGame.vo.CouponPurchaseVO;
-import com.school.stockGame.vo.CouponVO;
+import com.skfkfkvlrm.stockgame.query.CouponQuery;
+import com.skfkfkvlrm.stockgame.vo.CouponPurchaseVO;
+import com.skfkfkvlrm.stockgame.vo.CouponVO;
 
 public class CouponDAOJdbc implements CouponDAOInterface{
 	private Connection conn;

@@ -4,11 +4,10 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-
-import com.school.stockGame.dao.jdbc.CouponDAOJdbc;
-import com.school.stockGame.vo.CouponPurchaseVO;
+import com.skfkfkvlrm.stockgame.dao.jdbc.CouponDAOJdbc;
+import com.skfkfkvlrm.stockgame.vo.CouponPurchaseVO;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
 
 public class CouponPersonalUIAction implements Action {
 

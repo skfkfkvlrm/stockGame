@@ -6,7 +6,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.school.stockGame.dao.jdbc.MemberDAOJdbc;
+import com.skfkfkvlrm.stockgame.dao.jdbc.MemberDAOJdbc;
 
 public class MemberDAOTest {
 
